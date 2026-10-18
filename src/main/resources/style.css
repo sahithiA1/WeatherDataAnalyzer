@@ -1,0 +1,105 @@
+/* Main dashboard background */
+.dashboard {
+    -fx-background-color: #eef4ff;
+    -fx-font-family: "Arial";
+}
+
+/* Main heading */
+.heading {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2454a6;
+}
+
+/* Subtitle */
+.subtitle {
+    -fx-font-size: 15px;
+    -fx-text-fill: #64748b;
+}
+
+/* General styling for statistic cards */
+.stat-card {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-padding: 22px 15px;
+    -fx-background-radius: 16px;
+    -fx-min-width: 185px;
+    -fx-pref-height: 125px;
+}
+
+/* Average temperature card */
+.temperature-card {
+    -fx-background-color: #ffdfcf;
+    -fx-text-fill: #a34a24;
+}
+
+/* Hot days card */
+.hot-card {
+    -fx-background-color: #fff0bb;
+    -fx-text-fill: #9c6500;
+}
+
+/* Rainy days card */
+.rain-card {
+    -fx-background-color: #dcecff;
+    -fx-text-fill: #2863ad;
+}
+
+/* Total weather records card */
+.total-card {
+    -fx-background-color: #dcf5e6;
+    -fx-text-fill: #247449;
+}
+
+/* Month dropdown and temperature input */
+.combo-box,
+.text-field {
+    -fx-background-color: white;
+    -fx-background-radius: 9px;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 9px;
+    -fx-padding: 8px;
+    -fx-font-size: 13px;
+}
+
+/* Analyze button */
+.analyze-button {
+    -fx-background-color: #3478e5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-padding: 11px 20px;
+    -fx-cursor: hand;
+}
+
+/* Button hover effect */
+.analyze-button:hover {
+    -fx-background-color: #205ab5;
+}
+
+/* Weather data table */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #dbe4f0;
+    -fx-border-radius: 12px;
+}
+
+/* Table column headings */
+.table-view .column-header {
+    -fx-background-color: #dce9ff;
+    -fx-padding: 10px;
+}
+
+/* Table rows */
+.table-row-cell {
+    -fx-cell-size: 38px;
+}
+
+/* Highlight selected table rows */
+.table-row-cell:selected {
+    -fx-background-color: #bcd7ff;
+}
